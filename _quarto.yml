@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Testing Blog"
+  site-url: 'https://www.gamingtuberz.com'
   open-graph: true
   cookie-consent:
     type: express
