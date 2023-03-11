@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
@@ -112,6 +112,7 @@ cookieconsent.run({
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Testing Blog - Home">
+<meta property="og:image" content="./posts/welcome/thumbnail.jpg">
 <meta property="og:site-name" content="Testing Blog">
 </head>
 
@@ -190,51 +191,50 @@ cookieconsent.run({
 <thead>
 <tr>
 <th>
-Date
 </th>
 <th>
 Title
 </th>
 <th>
-Author
+Date
 </th>
 </tr>
 </thead>
 <tbody class="list">
 <tr data-index="0" data-categories="thoughts" data-listing-date-sort="1678386600000" data-listing-file-modified-sort="1678514937406" data-listing-reading-time-sort="0.065" data-listing-title-sort="My New Post" data-listing-filename-sort="index.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
-<td class="listing-date">
-Mar 10, 2023
+<td class="listing-image">
+<img src="./posts/my-new-post/image.jpg" style="height: 40px;">
 </td>
 <td class="listing-title">
 <a href="./posts/my-new-post/index.html" class="title">My New Post</a>
 </td>
-<td class="listing-author">
-Prateek
+<td class="listing-date">
+Mar 10, 2023
 </td>
 </tr>
 <tr data-index="1" data-categories="news,code,analysis" data-listing-date-sort="1678386600000" data-listing-file-modified-sort="1678465519793" data-listing-reading-time-sort="0.045" data-listing-title-sort="Post With Code" data-listing-filename-sort="index.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
-<td class="listing-date">
-Mar 10, 2023
+<td class="listing-image">
+<img src="./posts/post-with-code/image.jpg" style="height: 40px;">
 </td>
 <td class="listing-title">
 <a href="./posts/post-with-code/index.html" class="title">Post With Code</a>
 </td>
-<td class="listing-author">
-Harlow Malloc
+<td class="listing-date">
+Mar 10, 2023
 </td>
 </tr>
 <tr data-index="2" data-categories="news" data-listing-date-sort="1678127400000" data-listing-file-modified-sort="1678465519781" data-listing-reading-time-sort="0.16" data-listing-title-sort="Welcome To My Blog" data-listing-filename-sort="index.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
-<td class="listing-date">
-Mar 7, 2023
+<td class="listing-image">
+<img src="./posts/welcome/thumbnail.jpg" style="height: 40px;">
 </td>
 <td class="listing-title">
 <a href="./posts/welcome/index.html" class="title">Welcome To My Blog</a>
 </td>
-<td class="listing-author">
-Tristan O’Malley
+<td class="listing-date">
+Mar 7, 2023
 </td>
 </tr>
 </tbody>

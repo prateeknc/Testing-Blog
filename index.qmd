@@ -2,9 +2,10 @@
 title: "Home"
 listing:
   contents: posts
-  sort: "date desc"
+  sort: "title asc"
   type: table
   table-hover: true
+  fields: [image, title, date]
   categories: true
   sort-ui: false
   filter-ui: false
