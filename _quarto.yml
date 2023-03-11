@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Testing Blog"
+  title: "Gaming Tuberz"
   site-url: 'https://www.gamingtuberz.com'
   open-graph: true
   cookie-consent:
