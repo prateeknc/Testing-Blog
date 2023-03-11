@@ -4,6 +4,8 @@ author: "Prateek"
 date: "2023-03-10"
 categories: [thoughts]
 image: "image.jpg"
+execute: 
+  freeze: false
 ---
 
 This is a post with executable code.
