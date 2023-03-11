@@ -9,8 +9,7 @@ website:
     type: express
     style: headline
     palette: dark
-  body-footer: |
-    Copyright © 2023 Indian Gaming
+  page-footer: "Copyright © 2023 Indian Gaming"
   navbar:
     right:
       - about.qmd
