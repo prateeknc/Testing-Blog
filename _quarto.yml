@@ -3,22 +3,19 @@ project:
   output-dir: docs
 
 website:
+  favicon: website_icon.svg
   title: "Gaming Tuberz"
-  site-url: 'https://www.gamingtuberz.com'
+  site-url: "https://www.gamingtuberz.com"
   open-graph: true
   cookie-consent:
     type: express
     style: headline
     palette: dark
-  page-footer: "Copyright © 2023 Indian Gaming"
+  page-footer: "Copyright © 2023 Gaming Tuberz"
   navbar:
     search: true
     right:
       - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
 format:
   html:
     theme: cosmo
