@@ -18,7 +18,7 @@
     "href": "posts/my-new-post/index.html",
     "title": "My New Post",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2\n\n\nasw\nasas\n\n\n\nCopyright © 2023 Indian Gaming"
+    "text": "This is a post with executable code.\n\n1 + 1 + 1\n\n[1] 3\n\n\nasw\nasas\n\ndf = read.csv(\"my_data.csv\")\nprint(dim(df))\n\n[1] 3 2\n\n\n\n\n\nCopyright © 2023 Indian Gaming"
   },
   {
     "objectID": "posts/post-with-code/index.html",
