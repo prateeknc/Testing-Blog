@@ -1,6 +1,8 @@
 ---
 title: "My New Post"
 author: "Prateek"
+execute: 
+  enabled: true 
 date: "2023-03-10"
 categories: [thoughts]
 image: "image.jpg"
@@ -15,3 +17,8 @@ This is a post with executable code.
 asw
 
 asas
+
+```{r}
+df = read.csv("my_data.csv")
+print(dim(df))
+```
