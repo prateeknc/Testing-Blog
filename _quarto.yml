@@ -11,6 +11,7 @@ website:
     palette: dark
   page-footer: "Copyright © 2023 Indian Gaming"
   navbar:
+    search: true
     right:
       - about.qmd
       - icon: github
