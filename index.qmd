@@ -6,9 +6,9 @@ listing:
   type: table
   table-hover: true
   fields: [image, title, date]
-  categories: true
+  categories: false
   sort-ui: false
   filter-ui: false
-page-layout: full
+page-layout: article
 title-block-banner: true
 ---

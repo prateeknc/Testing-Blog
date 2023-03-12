@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nMy New Post\n\n\nMar 10, 2023\n\n\n\n\n\n\n\nPost With Code\n\n\nMar 10, 2023\n\n\n\n\n\n\n\nTotal Gaming\n\n\nMar 11, 2023\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\nMar 7, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nChannel - Total Gaming\n\n\nMar 11, 2023\n\n\n\n\n\n\n\nMy New Post\n\n\nMar 10, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/my-new-post/index.html",
@@ -28,24 +28,17 @@
     "text": "This is a post with executable code.\n\n1 + 1 + 1\n\n[1] 3\n\n\nasw\nasas\n\ndf = read.csv(\"my_data.csv\")\nprint(dim(df))\n\n[1] 5 2"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "posts/Total Gaming/index.html",
     "href": "posts/Total Gaming/index.html",
-    "title": "Total Gaming",
+    "title": "Channel - Total Gaming",
     "section": "",
-    "text": "This is a post with executable code.\n\n\n\nasw\n\ndim(channels_df)\n\n[1] 47  5\n\n\nasas"
+    "text": "Total Gaming is a popular YouTube channel featuring a highly skilled and entertaining Indian gamer who specializes in playing PC and Mobile Games. The channel offers a diverse range of gaming content, including gameplay footage, walkthroughs, tips and tricks, and more.\nWith a particular emphasis on Free Fire, Call of Duty Mobile, Pubg, and GTA 5, the channel’s owner shares his expertise and strategies with his audience, providing a highly engaging and informative experience.\nOne of the unique features of the channel is the use of Hindi commentary, which allows for a more personalized and relatable viewing experience for Indian audiences. The owner’s lively and engaging commentary provides a humorous and entertaining twist to the gameplay, making for an enjoyable and immersive experience."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "objectID": "posts/Total Gaming/index.html#overview-of-channel",
+    "href": "posts/Total Gaming/index.html#overview-of-channel",
+    "title": "Channel - Total Gaming",
+    "section": "Overview of Channel",
+    "text": "Overview of Channel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSubscribers\n\n\n34500000\n\n\n\n\nVideos\n\n\n1156\n\n\n\n\nViews\n\n\n5361615625\n\n\n\n\nChannel ID\n\n\nUC5c9VlYTSvBSCaoMu_GI6gQ"
   }
 ]

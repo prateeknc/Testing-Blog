@@ -1,13 +1,19 @@
 ---
-title: "Total Gaming"
+title: "Channel - Total Gaming"
 author: "GT Team"
 date: "2023-03-11"
-image: "image.jpg"
+image: "featured_image_total_gaming.jpg"
 execute: 
   freeze: false
 ---
 
-This is a post with executable code.
+## About the Channel
+
+[Total Gaming](https://www.youtube.com/@TotalGaming093){target="_blank"} is a popular YouTube channel featuring a highly skilled and entertaining Indian gamer who specializes in playing PC and Mobile Games. The channel offers a diverse range of gaming content, including gameplay footage, walkthroughs, tips and tricks, and more.
+
+With a particular emphasis on Free Fire, Call of Duty Mobile, Pubg, and GTA 5, the channel's owner shares his expertise and strategies with his audience, providing a highly engaging and informative experience.
+
+One of the unique features of the channel is the use of Hindi commentary, which allows for a more personalized and relatable viewing experience for Indian audiences. The owner's lively and engaging commentary provides a humorous and entertaining twist to the gameplay, making for an enjoyable and immersive experience.
 
 ```{r echo=FALSE, message=FALSE}
 
@@ -16,10 +22,26 @@ library(googlesheets4)
 channels_df = read_sheet("https://docs.google.com/spreadsheets/d/1uLOvJTeGA_rguPH2tfwGQHeBGu3GKuSN8nGywUQF8no/edit?usp=sharing", sheet = "Sheet2")
 ```
 
-asw
+## Overview of Channel
 
-```{r}
-dim(channels_df)
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(ggplot2)
+library(formattable)
+
+channel_name = "Total Gaming"
+
+# specify high-level stats
+subs = channels_df[channels_df$`channel-name` == channel_name,]$subscribers
+
+videos_count = channels_df[channels_df$`channel-name` == channel_name,]$videos
+
+views_count = channels_df[channels_df$`channel-name` == channel_name,]$views
+
+channel_id = channels_df[channels_df$`channel-name` == channel_name,]$channel_id
+
+# create table for high level stats
+high_level_stats <- data.frame(Statistic = c('Subscribers', 'Videos', 'Views', 'Channel ID'),
+  Data = c(subs, videos_count, views_count, channel_id))
+
+formattable(high_level_stats, col.names = c("",""), align = c('l', 'l'))
 ```
-
-asas
