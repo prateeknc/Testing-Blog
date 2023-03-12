@@ -1,19 +1,21 @@
 ---
 title: "About"
-image: profile.jpg
+image: controller-icon.svg
 about:
   template: jolla
-  links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-    - icon: github
-      text: Github
-      href: https://github.com
-
+  image-shape: rectangle
 ---
 
-About this blog
+Welcome to GamingTuberz.com, the go-to source for the latest stats and insights on gaming YouTube channels.
+
+Our mission is to provide gamers, content creators, and industry professionals with the information they need to stay up-to-date on the ever-evolving landscape of gaming content on YouTube. Whether you're looking to keep track of your favorite gaming channels, discover new creators to follow, or gain insights into industry trends, GamingTuberz.com has you covered.
+
+Our team of experienced analysts and data scientists gather, analyze, and present data on the most popular gaming channels and trends, including views, engagement, and subscriber growth. We also provide in-depth analysis and commentary on the latest news and developments in the gaming industry and how they are affecting content creators on YouTube.
+
+At GamingTuberz.com, we believe that gaming content creators are an important part of the gaming community, and we are committed to supporting them by providing the information and insights they need to succeed on YouTube. We are dedicated to delivering accurate, reliable, and actionable data to help gaming creators and industry professionals make informed decisions and achieve their goals.
+
+Thank you for visiting GamingTuberz.com, and we hope you find our website informative and useful. If you have any questions or feedback, please don't hesitate to contact us.
+
+Happy gaming!
+
+The GamingTuberz.com Team

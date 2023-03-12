@@ -1,0 +1,25 @@
+---
+title: "Total Gaming"
+author: "GT Team"
+date: "2023-03-11"
+image: "image.jpg"
+execute: 
+  freeze: false
+---
+
+This is a post with executable code.
+
+```{r echo=FALSE, message=FALSE}
+
+library(googlesheets4)
+
+channels_df = read_sheet("https://docs.google.com/spreadsheets/d/1uLOvJTeGA_rguPH2tfwGQHeBGu3GKuSN8nGywUQF8no/edit?usp=sharing", sheet = "Sheet2")
+```
+
+asw
+
+```{r}
+dim(channels_df)
+```
+
+asas

@@ -4,14 +4,21 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "Welcome to GamingTuberz.com, the go-to source for the latest stats and insights on gaming YouTube channels.\nOur mission is to provide gamers, content creators, and industry professionals with the information they need to stay up-to-date on the ever-evolving landscape of gaming content on YouTube. Whether you’re looking to keep track of your favorite gaming channels, discover new creators to follow, or gain insights into industry trends, GamingTuberz.com has you covered.\nOur team of experienced analysts and data scientists gather, analyze, and present data on the most popular gaming channels and trends, including views, engagement, and subscriber growth. We also provide in-depth analysis and commentary on the latest news and developments in the gaming industry and how they are affecting content creators on YouTube.\nAt GamingTuberz.com, we believe that gaming content creators are an important part of the gaming community, and we are committed to supporting them by providing the information and insights they need to succeed on YouTube. We are dedicated to delivering accurate, reliable, and actionable data to help gaming creators and industry professionals make informed decisions and achieve their goals.\nThank you for visiting GamingTuberz.com, and we hope you find our website informative and useful. If you have any questions or feedback, please don’t hesitate to contact us.\nHappy gaming!\nThe GamingTuberz.com Team"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "We value your feedback, questions, and concerns and are committed to addressing them in a timely and effective manner. If you have any inquiries about our products, services, or website.\nPlease feel free to send us an email, our team is dedicated to providing you with exceptional customer service and will do our best to respond to your inquiry as soon as possible.\nThank you for taking the time to visit our website and we look forward to hearing from you.\nBest regards, Gaming Tuberz"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nMy New Post\n\n\nMar 10, 2023\n\n\n\n\n\n\n\nPost With Code\n\n\nMar 10, 2023\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\nMar 7, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\n\nMy New Post\n\n\nMar 10, 2023\n\n\n\n\n\n\n\nPost With Code\n\n\nMar 10, 2023\n\n\n\n\n\n\n\nTotal Gaming\n\n\nMar 11, 2023\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\nMar 7, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/my-new-post/index.html",
@@ -26,6 +33,13 @@
     "title": "Post With Code",
     "section": "",
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/Total Gaming/index.html",
+    "href": "posts/Total Gaming/index.html",
+    "title": "Total Gaming",
+    "section": "",
+    "text": "This is a post with executable code.\n\n\n\nasw\n\ndim(channels_df)\n\n[1] 47  5\n\n\nasas"
   },
   {
     "objectID": "posts/welcome/index.html",

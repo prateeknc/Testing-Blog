@@ -1,0 +1,19 @@
+---
+title: "Contact"
+image: contact_us.JPG
+about:
+  template: jolla
+  image-shape: rectangle
+  links:
+    - icon: envelope
+      text: E-mail
+      href: mailto:prateek@nocodewala.com
+---
+
+We value your feedback, questions, and concerns and are committed to addressing them in a timely and effective manner. If you have any inquiries about our products, services, or website.
+
+Please feel free to send us an email, our team is dedicated to providing you with exceptional customer service and will do our best to respond to your inquiry as soon as possible.
+
+Thank you for taking the time to visit our website and we look forward to hearing from you.
+
+Best regards, Gaming Tuberz

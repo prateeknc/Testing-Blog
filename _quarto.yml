@@ -16,6 +16,7 @@ website:
     search: true
     right:
       - about.qmd
+      - contact.qmd
 format:
   html:
     theme: cosmo
